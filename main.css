@@ -1,0 +1,55 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: white;
+  }
+
+.title{
+    margin: auto;
+}
+
+ h1{
+    margin:20px;
+    text-align: center;
+    font-family: Courier, monospace;
+    color: rgb(0, 189, 164);
+ }
+
+ .buttons{
+    margin: auto;
+    width: 440px;
+    padding-bottom: 20px;
+    
+}
+
+.btn{
+    margin: 0 3px;
+    font-family: Courier, monospace;
+    background-color: white;
+    border-radius: 8px;
+    border-color: rgb(0, 189, 164);
+    color: rgb(82, 82, 82);
+}
+
+.btn:focus{
+    outline: none;
+  }
+
+.btn:hover{
+    outline: none;
+    background-color: rgb(0, 189, 164);
+  }
+
+ .container{
+    margin: auto;
+    width: 550px;
+    height: 550px;
+    border: 1px solid rgb(212, 210, 210);
+    display: grid;
+ } 
+
+
+.square{
+    margin: 0px;
+    border: 1px solid gray;
+}
